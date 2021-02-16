@@ -46,6 +46,7 @@ public class Menu extends AlunosRepository {
 
                 System.out.println(alunos[codigo]);
                 double media = (alunos[codigo].getAv1() + alunos[codigo].getAv2()) / 2;
+                System.out.println("Média do aluno: " + media);
 
                 if (media < 4) {
                     System.out.println("Situação: Reprovado\n\n");
