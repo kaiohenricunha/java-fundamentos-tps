@@ -70,7 +70,7 @@ public class Menu extends AlunosRepository {
                     }
                 }
             } else {
-                System.out.println("Opcao nao conhecida.");
+                System.out.println("Opção nao conhecida.");
             }
             mostrarMenu();
             System.out.println("Digite a opção:");
